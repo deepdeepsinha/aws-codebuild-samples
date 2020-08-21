@@ -1,6 +1,6 @@
 #!/bin/bash
-source /home/ec2-user/.bash_profile
-cd /home/ec2-user
+source /var/www/.bash_profile
+cd /var/www
 node --version
 if [ $? -ne 0 ]
 then
